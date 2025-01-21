@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SignUp</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+  <div id="signupbox"> <!-- signup main page  -->
+    <h2>Create an Account</h2>
+    <form>
+      <div id="inputgroup"> <!--user information like name mail,pwd, -->
+        <input type="text" placeholder="Full Name" required id="name">
+      </div>
+      <div id="inputgroup">
+        <input type="email" placeholder="Email Address" required id="email">
+      </div>
+      <div id="inputgroup">
+        <input type="password" placeholder="Password" required id="password">
+        <span id="togglePassword" class="toggle-icon">&#128065;</span>
+      </div>
+      <div id="inputgroup">
+        <input type="password" placeholder="Confirm Password" required id="confirmpassword">
+      </div>
+      <button type="submit" class="Modal" id="signupbutton">Sign Up</button>
+
+      <p>Already have an account? <a href="login.html">Login</a></p>
+    </form>
+  </div>
+  <script type="module" src="script.js"></script>
+  <script src="signup.js"></script>
+</body>
+
+</html>

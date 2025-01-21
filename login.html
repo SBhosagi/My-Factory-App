@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+  <div id="loginbox"><!-- login main page  -->
+    <h2>Login to Your Account</h2>
+    <form>
+      <div id="inputgroup"><!--user information like mail,pwd, -->
+        <input type="email" id="email" placeholder="Email Address" required>
+      </div>
+      <div id="inputgroup">
+        <input type="password" id="password"   placeholder="Password" required>
+        <span id="togglePassword" class="toggle-icon">&#128065;</span>
+      </div>
+      <button type="submit" class="Modal" id="loginbutton">Login</button>
+
+      <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </form>
+  </div>
+  <script type="module" src="script.js"></script>
+  <script src="login.js"></script>
+</body>
+
+</html>
